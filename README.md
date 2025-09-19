@@ -1,7 +1,7 @@
 # Logistic Regression Analysis on CSV Dataset
 
 ## Author
-Ved Parkash Sharma  
+Ved Parkash
 IIT Patna | Advance Pattern Recognition  
 Date: 19-Sep-2025  
 
