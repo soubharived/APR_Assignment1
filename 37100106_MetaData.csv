@@ -1,0 +1,62 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Proportion of students who are working, aged 15 to 29, by age group and type of institution attended","37100106","477-0102","https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3710010601",1;2;3;4,"CURRENT - a cube available to the public and that is current","Occasional","1995-01-01","2023-01-01","3",
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+"1","Geography",,""
+"2","Age group",6,""
+"3","Type of institution attended",7,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+"1","Newfoundland and Labrador","[10]","2","1","",,
+"1","Prince Edward Island","[11]","3","1","",,
+"1","Nova Scotia","[12]","4","1","",,
+"1","Quebec","[24]","6","1","",,
+"1","Ontario","[35]","7","1","",,
+"1","Manitoba","[46]","8","1","",,
+"1","Saskatchewan","[47]","9","1","",,
+"1","Alberta","[48]","10","1","",,
+"1","British Columbia","[59]","11","1","",,
+"1","New Brunswick","[13]","5","1","",,
+"1","Canada","[11124]","1","","",5,
+"2","15 to 19 years","","1","","",,
+"2","20 to 24 years","","2","","",,
+"2","25 to 29 years","","3","","",,
+"3","Elementary/High School","","2","1","",,
+"3","College","","3","1","",,
+"3","University","","4","1","",,
+"3","Total type of institution attended","","1","","",,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"3701","Labour Force Survey"
+"5420","Pan-Canadian Education Indicators Program (PCEIP)"
+
+"Subject Code","Subject Name"
+"37","Education, training and learning"
+
+"Note ID",Note
+1,"Source:Labour Force Survey (LFS)."
+2,"Adjustments are made to Labour Force Survey (LFS) data every five years after new population estimates become available following the most recent census. At that time, all LFS data back to the previous census is re-weighted using the new population estimates (since the new population estimates will cover the intercensal period between the two most recent censuses), and all corresponding historical LFS estimates are revised.  Therefore, at the beginning of 2021, all estimates were adjusted to reflect 2016 Census population counts and LFS estimates have been revised back to January 2006."
+3,"Includes full- and part-time students who were taking a "credit course"; for example, a course or program of instruction that could be counted towards a degree, certificate or diploma. The number of students is based on a monthly average from September to April."
+4,"Most of the estimates contained in this table have been assigned a letter to indicate their coefficient of variation (c.v.) (expressed as a percentage). The letter grades represent the following coefficients of variation: A is used for a c.v. between or equal to 0.00% and 5.00% and means Excellent, B is used for a c.v. between or equal to 5.01% and 15.00% and means Very good, C is used for a c.v. between or equal to 15.01% and 25.00% and means Good, D is used for a c.v. between or equal to 25.01% and 35.00% and means Acceptable, E is used for a c.v. greater than 35.00% and means Use with caution."
+5,"Labour Force Survey (LFS) estimates for Canada are derived using results from the provinces. LFS results for the territories are not included in the national estimates. Difficulties exist with respect to reaching small communities in the territories, and there are areas that are excluded. As well, since the sample design, rotation pattern and reliability criteria are different from those in the 10 provinces, estimates for the territories are not included with the provincial totals, but are calculated and reported separately."
+6,"Caution should be exercised in interpreting these ratios and differences in ratios between ages and over time, as small estimates may present high sampling variability.  Estimates for small geographic areas, for small age groups, or for cross-classified variables will be associated with larger variability."
+7,"Captures public and private educational establishments: elementary, junior high school, high school or equivalent; community college, junior college or CEGEP; university; and other types of schools, such as private institutes or vocational or secretarial schools."
+
+"Correction ID","Correction Date","Correction Note"
